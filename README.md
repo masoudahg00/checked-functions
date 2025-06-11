@@ -1,6 +1,15 @@
-# Java Checked Functions
+# Java Checked Functions@masoudahg00
 When you've got a `java.lang.Runnable` that can throw checked exceptions, you have to handle them all explicitly since the `Runnable` interface doesn't have a `throws` clause. The same is true for other functional interfaces like `Consumer`, `Supplier` in `java.util.function`.
-
+a1310484249eee7a1f86b771b22c81cadf5a8d5a
+15d0881765b36837efc413f649e87a88ad2bd03d
+3e6760810a48fae251eb3343e5442ca14e4df4ae
+45eaca3625ed8680701b9cdc882e0c750c0594fa
+"@masoudleyli"
+"a42c3b0d563929ec35952abf1cea8b30d0f88f83@masoudleyli"
+"d5720c20bbd1f398a84a414128f46aba2331b380@masoudleyli"
+"dabdd99cf864d02b2ee45be6f2e6d16aeeab7b28@masoudleyli"
+"1da1d154dd76b540411b7d68a2564be3f40cf4dc@masoudleyli"
+"ce73bc66a4918c4dd82b9ebee889516e7e83f3d7@masoudl-path-1"'45eaca3625ed8680701b9cdc882e0c750c0594fa'@masoudahg00
 This little library gives you a twin interface for each of those. But the twin is declared with a `throws Throwable` clause. Through trickery ~~stolen~~ borrowed from [vavr](https://www.vavr.io/) these functional interfaces can be used where the JDK ones are expected.
 
 Example:
